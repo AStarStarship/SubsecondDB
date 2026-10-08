@@ -18,13 +18,30 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="_Impl.hxx" />
+    <None Include="_Seams.hxx" />
+    <None Include="_seams\00.Core.hxx" />
+    <None Include="_seams\README.md" />
+    <None Include="_seams\release.hxx" />
+    <None Include="_seams\_Debug.hxx" />
+    <None Include="_seams\_Release.hxx" />
+    <None Include="_seams\_Undef.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeFiles.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{FFE18DBF-3F1E-4E70-8B55-85145324FA65}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>kabukisdkdata</RootNamespace>
+    <RootNamespace>SubsecondDb</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>kabuki.db</ProjectName>
+    <ProjectName>SubsecondDb</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
