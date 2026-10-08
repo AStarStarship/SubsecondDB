@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="./">
+      <UniqueIdentifier>{3aa804bd-2649-4725-b35b-24533a68cb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="./\_Seams">
+      <UniqueIdentifier>{c9aea5e0-8970-4946-b65f-adac3979ec01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Seams.hxx">
+      <Filter>./</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>./</Filter>
+    </None>
+    <None Include="_Impl.hxx">
+      <Filter>./</Filter>
+    </None>
+    <None Include="_seams\_Debug.hxx">
+      <Filter>./\_Seams</Filter>
+    </None>
+    <None Include="_seams\_Release.hxx">
+      <Filter>./\_Seams</Filter>
+    </None>
+    <None Include="_seams\_Undef.hxx">
+      <Filter>./\_Seams</Filter>
+    </None>
+    <None Include="_seams\00.Core.hxx">
+      <Filter>./\_Seams</Filter>
+    </None>
+    <None Include="_seams\README.md">
+      <Filter>./\_Seams</Filter>
+    </None>
+    <None Include="_seams\release.hxx">
+      <Filter>./\_Seams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeFiles.txt">
+      <Filter>./</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_main.cpp">
+      <Filter>./</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
